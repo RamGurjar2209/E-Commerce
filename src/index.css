@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(253, 120, 235);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 300px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+
+.catagories {
+    width: 850px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.catagories a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.catagories button {
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(42, 1, 77);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-section {
+    width: 100%;
+    height: 550px;
+    background-image: url("./assets/why-ecommerce-need-mobile-apps.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-content h1 {
+    margin-left: 100px;
+    font-size: 50px;
+    color: white;
+}
+
+.hero-content p {
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.hero-content div {
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.hero-content button {
+    border: none;
+    padding: 10px 40px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(253, 120, 235);
+}
+
+.products-container {
+    width: 100%;
+    min-height: 500px;
+    background-image: linear-gradient(to right, rgb(253, 120, 235), rgb(14, 14, 43));
+}
+
+.all-products {
+    width: 100%;
+    height: 80px;
+    display: grid;
+    place-items: center;
+}
+
+.all-products h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.card-container {
+    width: 100%;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.img-container {
+    width: 280px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container img {
+    width: 150px;
+}
+
+.product-title {
+    width: 280px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+}
+
+.price-cart {
+    width: 280px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-cart h3 {
+    font-size: 20px;
+}
+
+.price-cart button {
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(42, 1, 77);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(42, 1, 77);
+    display: grid;
+    place-items: center;
+}
+
+footer h2 {
+    color: white;
+}
+
+
+
+.cart-container {
+    width: 100%;
+    min-height: 83.1vh;
+    display: flex;
+    background-image: linear-gradient(to right, rgb(253, 120, 235), rgb(14, 14, 43));
+}
+
+.cart-product {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product-card {
+    width: 650px;
+    height: 250px;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 80px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.product-card section {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.remove-button{
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 2px 272.5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cart-product-img {
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    margin-right: 10px;
+    display: grid;
+    place-items: center;
+}
+
+.cart-product-img img {
+    width: 130px;
+}
+
+.cart-product-details {
+    width: 350px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cart-product-details button {
+    border: none;
+    padding: 5px 5px;
+    margin-right: 10px;
+    margin-left: 15px;
+    background-color: rgb(177, 187, 196);
+    border-radius: 5px;
+}
+
+.bill-section {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.bill-card {
+    width: 280px;
+    height: 250px;
+    background-color: white;
+    margin-top: 80px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.bill-card h1 {
+    font-size: 27px;
+}
+
+.bill-card h2 {
+    font-size: 25px;
+}
+
+.bill-card button {
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(42, 1, 77);
+    color: white;
+    padding: 2px 80px;
+    border-radius: 20px;
+}
